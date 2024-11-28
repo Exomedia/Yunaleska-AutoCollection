@@ -1,7 +1,7 @@
 // steam.js
 import { calculateGameStats, createSteamItem, adjustFontSizes, fetchGamesData } from './utils.js';
 
-async function fetchData() {
+async function fetchData(platform) {
     try {
         const games = await fetchGamesData(platform);
         document.getElementById('itemCount').textContent = `${games.length} jeux possédés`;
