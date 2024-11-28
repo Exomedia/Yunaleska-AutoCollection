@@ -1,4 +1,15 @@
 # Automatisation
+## QoL
+Fonction pour modifier la taille du texte en fonction de sa longueur, les noms des jeux devraient rester sur une ligne sans faire de cas par cas
+```js
+function adjustFontSizes() {
+    document.querySelectorAll('.game-name').forEach(element => {
+        const length = element.textContent.length;
+        element.style.fontSize = length > 20 ? '12px' : length > 15 ? '13px' : length > 10 ? '14px' : '15px';
+    });
+}
+```
+
 ## Index
 - Liste les jeux en cours via index_games.json
 - Cherche automatiquement le nom du jeu dans le fichier json de la plateforme pour récupérer les images, achievements, etc...
@@ -21,7 +32,6 @@
 
 ## Nintendo
 - Rempli automatiquement le nombre de jeux possédés
-- Calcule le nombre d'entrées dans le fichier json
 - Créé les entrées des jeux DS et Switch dans leurs collections respectives
 - ds_data.json
 ```json
