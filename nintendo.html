@@ -10,6 +10,8 @@
 	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
 	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
+	<script type="module" src="assets/scripts/utils.js"></script>
+	<script type="module" src="assets/scripts/nintendo.js"></script>
 	<meta content="" name="description" />
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 </head>
@@ -32,7 +34,7 @@
 						</li>
 						<li class="site-navigation__sub-item"><a class="site-navigation link"
 								href="steam.html">Steam</a></li>
-						<li class="site-navigation__sub-item"><a class="site-navigation link selected"
+						<li class="site-navigation__sub-item"><a class="site-navigation link"
 								href="nintendo.html">Nintendo</a></li>
 						<li class="site-navigation__sub-item"><a class="site-navigation link"
 								href="wish-list.html">Wishlist</a></li>
@@ -71,7 +73,8 @@
 		</main>
 		<custom-footer></custom-footer>
 		<script src="assets/scripts/footer.js"></script>
-		<script src="assets/scripts/nintendo.js"></script>
+		<script type="module">import fetchData from './assets/scripts/nintendo.js';fetchData();</script>
+		<script src="assets/scripts/wherami.js"></script>
 	</div>
 </body>
 

@@ -9,7 +9,8 @@
 		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
 		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
-		<script src="assets/scripts/ps.js"></script>
+		<script type="module" src="assets/scripts/utils.js"></script>
+		<script type="module" src="assets/scripts/ps.js"></script>
 		<meta content="" name="description" /> 
 		<meta content="width=device-width, initial-scale=1" name="viewport" />  
 	</head>
@@ -102,21 +103,7 @@
 			<custom-footer></custom-footer>
 			<script src="assets/scripts/footer.js"></script>	  
 		</div>
-		<script>
-			// Get the current page's URL
-			const currentPage = window.location.pathname.split("/").pop();
-		  
-			// Get all navigation links
-			const navLinks = document.querySelectorAll('.site-navigation__sub-item a');
-		  
-			// Loop through the links and add the "selected" class to the current page link
-			navLinks.forEach(link => {
-			  const linkHref = link.getAttribute('href');
-			  if (linkHref === currentPage) {
-				link.classList.add('selected');
-			  }
-			});
-		  </script>
-		  <script>fetchData('ps3')</script>		  
+		  <script type="module">import fetchData from './assets/scripts/ps.js';fetchData('ps3');</script>
+		  <script src="assets/scripts/wherami.js"></script>  
 	</body>
 </html>
