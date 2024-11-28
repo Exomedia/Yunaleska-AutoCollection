@@ -67,8 +67,19 @@ export function createPsItem(game, platform) {
         isDlcCompleted: checkTrophyCompletion([game.bronze_trophies_dlc, game.silver_trophies_dlc, game.gold_trophies_dlc])
     };
 
+    // Check if "without_platine" exists and is true, default to false if undefined
+    const isWithoutPlatine = game.without_platine || false;
+
+    // Determine class name
+    let className;
+    if (isWithoutPlatine) {
+        className = 'without-platine';
+    } else {
+        className = gameStats.isCompleted ? 'platined' : 'not-platined';
+    }
+
     const gameDiv = document.createElement('div');
-    gameDiv.className = `games-show effect-show ${gameStats.isCompleted ? 'platined' : 'not-platined'}`;
+    gameDiv.className = `games-show effect-show ${className}`;
     gameDiv.innerHTML = buildGameHTML(game, platform, gameStats);
 
     return { gameDiv, gameStats };
@@ -104,6 +115,14 @@ function buildGameHTML(game, platform, stats) {
     const { isCompleted, isDlcCompleted } = stats;
     const hasDlc = hasDlcTrophies(game);
 
+    // Check if "without_platine" is true (or undefined, default to false)
+    const isWithoutPlatine = game.without_platine || false;
+
+    // Update the platine section for "without_platine"
+    const platineSection = isWithoutPlatine
+        ? `<div class="trophies-pictures no-platine-picture"></div> 0/0`
+        : `<div class="trophies-pictures platine-picture"></div> ${isCompleted ? '1/1' : '0/1'}`;
+
     return `
         <img src="assets/images/${platform}/${game.img_src}" alt="${game.name}" />
         <div class="mask mask-1"></div>
@@ -111,7 +130,7 @@ function buildGameHTML(game, platform, stats) {
         <div class="content">
             <h2 class="game-name">${game.name}</h2>
             <div class="games-trophies">
-                <div class="trophies-pictures platine-picture"></div> ${isCompleted ? '1/1' : '0/1'}
+                ${platineSection}
                 <div class="trophies-pictures gold-picture"></div> ${game.gold_trophies}
                 <div class="trophies-pictures silver-picture"></div> ${game.silver_trophies}
                 <div class="trophies-pictures bronze-picture"></div> ${game.bronze_trophies}
