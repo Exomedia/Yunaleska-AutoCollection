@@ -92,9 +92,17 @@ function checkTrophyCompletion(trophies) {
     });
 }
 
+function hasDlcTrophies(game) {
+    return (
+        game.bronze_trophies_dlc !== '0/0' ||
+        game.silver_trophies_dlc !== '0/0' ||
+        game.gold_trophies_dlc !== '0/0'
+    );
+}
+
 function buildGameHTML(game, platform, stats) {
-    const { bronze, silver, gold, isCompleted, isDlcCompleted } = stats;
-    const hasDlcTrophies = [bronze.total, silver.total, gold.total].some(t => t > 0);
+    const { isCompleted, isDlcCompleted } = stats;
+    const hasDlc = hasDlcTrophies(game);
 
     return `
         <img src="assets/images/${platform}/${game.img_src}" alt="${game.name}" />
@@ -109,7 +117,7 @@ function buildGameHTML(game, platform, stats) {
                 <div class="trophies-pictures bronze-picture"></div> ${game.bronze_trophies}
             </div>
             <div class="date-platined">${game.date_platined ? `Platiné le ${game.date_platined}` : 'Platine non obtenu'}</div>
-            ${hasDlcTrophies ? buildDlcHTML(game, isDlcCompleted) : ''}
+            ${hasDlc ? buildDlcHTML(game, isDlcCompleted) : ''}
         </div>
     `;
 }
@@ -138,6 +146,7 @@ export function updateSidebarStatistics({ totalPlatinums, gamesLength, goldObtai
     updateElement('silver', `<div class="trophies-pictures silver-picture"></div> ${silverObtained}/${silverTotal}`, ((silverObtained / silverTotal) * 100).toFixed(2));
     updateElement('bronze', `<div class="trophies-pictures bronze-picture"></div> ${bronzeObtained}/${bronzeTotal}`, ((bronzeObtained / bronzeTotal) * 100).toFixed(2));
     document.getElementById('totalCount').textContent = `${goldObtained + silverObtained + bronzeObtained}/${goldTotal + silverTotal + bronzeTotal}`;
+    document.getElementById('itemCount').textContent = `${gamesLength} jeux possédés`;
 }
 
 // Function to update the game count on the page
