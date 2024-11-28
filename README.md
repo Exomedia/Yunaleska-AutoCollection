@@ -12,7 +12,59 @@ function adjustFontSizes() {
     });
 }
 ```
+Footer modifiable dans le fichier assets\scripts\footer.js pour ne pas avoir à modifier chaque page
+```js
+class FooterElement extends HTMLElement {
+    connectedCallback() {
+        try {
+            const page = window.location.pathname.split('/').pop() || 'index.html';
+            let ulClasses = 'site-footer social-list';
+            let copyrightId = '';
+          
+            if (page === 'steam.html') {
+              ulClasses += ' footer-steam';
+              copyrightId = 'copyright-steam';
+            } else if (page === 'nintendo.html') {
+              ulClasses += ' footer-nintendo';
+              copyrightId = 'copyright-nintendo';
+            }
+          
+            this.innerHTML = `
+              <footer class="site-footer">
+                  <ul class="${ulClasses}">
+                      <li class="site-footer__sub-item twitch"><a class="site-navigation__link" href="https://www.twitch.tv/yunaleska"></a></li>
+                      <li class="site-footer__sub-item youtube"><a class="site-navigation__link" href="https://www.youtube.com/@YunaleskaTwitch"></a></li>
+                      <li class="site-footer__sub-item twitter"><a class="site-navigation__link" href="https://x.com/YunaleskaTwitch"></a></li>
+                      <li class="site-footer__sub-item facebook"><a class="site-navigation__link" href="#"></a></li>
+                      <li class="site-footer__sub-item discord"><a class="site-navigation__link" href="https://discord.gg/r6M5Y2uuT4"></a></li>
+                  </ul>
+                  <p class="site-footer copyright" ${copyrightId ? `id="${copyrightId}"` : ''}>
+                    © 2024 Yunaleska's Collection. Tous droits réservés.
+                  </p>
+              </footer>
+            `;
+          } catch (error) {
+            console.error('Footer rendering failed:', error);
+          }          
+    }
+}
+customElements.define('custom-footer', FooterElement);
+```
+Fichier whereami pour modifier la petite flèche dans le menu selon la page où on se trouve assets\scripts\wherami.js
+```js
+const currentPage = window.location.pathname.split("/").pop();
 
+// Get all navigation links
+const navLinks = document.querySelectorAll('.site-navigation__sub-item a');
+
+// Loop through the links and add the "selected" class to the current page link
+navLinks.forEach(link => {
+    const linkHref = link.getAttribute('href');
+    if (linkHref === currentPage) {
+    link.classList.add('selected');
+    }
+});
+```
 ## Index
 - Liste les jeux en cours via index_games.json
 - Cherche automatiquement le nom du jeu dans le fichier json de la plateforme pour récupérer les images, achievements, etc...
