@@ -1,3 +1,6 @@
+# Live demo
+[exomedia.io](https://exomedia.io/Yunaleska-AutoCollection/)
+
 # Automatisation
 ## QoL
 Fonction pour modifier la taille du texte en fonction de sa longueur, les noms des jeux devraient rester sur une ligne sans faire de cas par cas
