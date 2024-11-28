@@ -1,14 +1,9 @@
 // steam.js
-import { calculateGameStats, createSteamItem, adjustFontSizes } from './utils.js';
+import { calculateGameStats, createSteamItem, adjustFontSizes, fetchGamesData } from './utils.js';
 
 async function fetchData() {
     try {
-        const gamesdata = await fetch('assets/json/steam_data.json');
-        if (!gamesdata.ok) {
-            throw new Error('Fichier indisponible');
-        }
-
-        const games = await gamesdata.json();
+        const games = await fetchGamesData(platform);
         document.getElementById('itemCount').textContent = `${games.length} jeux possédés`;
 
         let totalEarned = 0;
