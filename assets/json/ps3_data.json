@@ -5,10 +5,10 @@
         "bronze_trophies": "30/30",
         "silver_trophies": "12/12",
         "gold_trophies": "2/2",
-        "date_platined": "01/09/2015",
         "bronze_trophies_dlc": "0/4",
         "silver_trophies_dlc": "0/1",
-        "gold_trophies_dlc": "0/1"
+        "gold_trophies_dlc": "0/1",
+        "date_platined": "Platiné le 01/09/2015"
     },
     {
         "img_src": "bayonetta.png",
@@ -26,10 +26,10 @@
         "bronze_trophies": "23/23",
         "silver_trophies": "7/7",
         "gold_trophies": "5/5",
-        "date_platined": "28/07/2015",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 28/07/2015"
     },
     {
         "img_src": "borderlands.png",
@@ -37,10 +37,10 @@
         "bronze_trophies": "41/41",
         "silver_trophies": "7/7",
         "gold_trophies": "2/2",
-        "date_platined": "09/05/2016",
         "bronze_trophies_dlc": "5/18",
         "silver_trophies_dlc": "3/10",
-        "gold_trophies_dlc": "0/2"
+        "gold_trophies_dlc": "0/2",
+        "date_platined": "Platiné le 09/05/2016"
     },
     {
         "img_src": "borderlands-2.png",
@@ -118,10 +118,10 @@
         "bronze_trophies": "20/20",
         "silver_trophies": "7/7",
         "gold_trophies": "6/6",
-        "date_platined": "02/12/2019",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 02/12/2019"
     },
     {
         "img_src": "diablo-3.png",
@@ -159,10 +159,10 @@
         "bronze_trophies": "21/21",
         "silver_trophies": "9/9",
         "gold_trophies": "5/5",
-        "date_platined": "03/01/2014",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 03/01/2014"
     },
     {
         "img_src": "final-fantasy-13-2.png",
@@ -170,10 +170,10 @@
         "bronze_trophies": "19/19",
         "silver_trophies": "6/6",
         "gold_trophies": "6/6",
-        "date_platined": "26/09/2016",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 26/09/2016"
     },
     {
         "img_src": "final-fantasy-13-3.png",
@@ -191,10 +191,10 @@
         "bronze_trophies": "11/11",
         "silver_trophies": "12/12",
         "gold_trophies": "5/5",
-        "date_platined": "10/06/2016",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 10/06/2016"
     },
     {
         "img_src": "project-diva-f-2.png",
@@ -202,10 +202,10 @@
         "bronze_trophies": "10/10",
         "silver_trophies": "12/12",
         "gold_trophies": "5/5",
-        "date_platined": "10/12/2016",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 10/12/2016"
     },
     {
         "img_src": "hitman-absolution.png",
@@ -213,10 +213,10 @@
         "bronze_trophies": "32/32",
         "silver_trophies": "12/12",
         "gold_trophies": "2/2",
-        "date_platined": "18/01/2014",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 18/01/2014"
     },
     {
         "img_src": "lara-croft.png",
@@ -226,7 +226,8 @@
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
     },
     {
         "img_src": "littlebigplanet.png",
@@ -306,7 +307,8 @@
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
     },
     {
         "img_src": "resident-evil-5-ge.png",
@@ -314,10 +316,10 @@
         "bronze_trophies": "38/38",
         "silver_trophies": "11/11",
         "gold_trophies": "1/1",
-        "date_platined": "14/03/2011",
         "bronze_trophies_dlc": "15/15",
         "silver_trophies_dlc": "5/5",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 14/03/2011"
     },
     {
         "img_src": "resident-evil-6.png",
@@ -327,7 +329,8 @@
         "gold_trophies": "2/2",
         "bronze_trophies_dlc": "0/8",
         "silver_trophies_dlc": "0/8",
-        "gold_trophies_dlc": "0/4"
+        "gold_trophies_dlc": "0/4",
+        "date_platined": "Platiné 22/03/2015"
     },
     {
         "img_src": "resident-evil-cvx.png",
@@ -337,7 +340,9 @@
         "gold_trophies": "1/1",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "without_platine": true,
+        "date_platined": "22/04/2012"
     },
     {
         "img_src": "resident-evil-orc.png",
@@ -345,10 +350,10 @@
         "bronze_trophies": "38/38",
         "silver_trophies": "10/10",
         "gold_trophies": "2/2",
-        "date_platined": "05/05/2012",
         "bronze_trophies_dlc": "14/14",
         "silver_trophies_dlc": "6/6",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 05/05/2012"
     },
     {
         "img_src": "resident-evil-revelations.png",
@@ -368,7 +373,8 @@
         "gold_trophies": "4/4",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné 24/08/2018"
     },
     {
         "img_src": "resident-evil-uc.png",
@@ -378,7 +384,8 @@
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
     },
     {
         "img_src": "resident-evil-dc.png",
@@ -388,7 +395,8 @@
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
     },
     {
         "img_src": "resonance-of-fate.png",
@@ -428,7 +436,8 @@
         "gold_trophies": "0/2",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
     },
     {
         "img_src": "soulcalibur-5.png",
@@ -448,7 +457,8 @@
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
     },
     {
         "img_src": "syberia.png",
@@ -458,7 +468,8 @@
         "gold_trophies": "0/1",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
     },
     {
         "img_src": "tekken-6.png",
@@ -466,10 +477,10 @@
         "bronze_trophies": "36/36",
         "silver_trophies": "11/11",
         "gold_trophies": "2/2",
-        "date_platined": "30/04/2012",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 30/04/2012"
     },
     {
         "img_src": "tekken-revolution.png",
@@ -479,7 +490,8 @@
         "gold_trophies": "1/1",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "100% non obtenu"
     },
     {
         "img_src": "tekken-tag-tournament-2.png",
@@ -487,10 +499,10 @@
         "bronze_trophies": "36/36",
         "silver_trophies": "11/11",
         "gold_trophies": "2/2",
-        "date_platined": "04/07/2013",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 04/07/2013"
     },
     {
         "img_src": "the-evil-within.png",
@@ -520,7 +532,8 @@
         "gold_trophies": "3/3",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné 24/11/2017"
     },
     {
         "img_src": "tomb-raider-anniversary.png",
@@ -528,10 +541,10 @@
         "bronze_trophies": "22/22",
         "silver_trophies": "17/17",
         "gold_trophies": "2/2",
-        "date_platined": "28/11/2017",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 28/11/2017"
     },
     {
         "img_src": "tomb-raider-underworld.png",
@@ -539,10 +552,10 @@
         "bronze_trophies": "17/17",
         "silver_trophies": "10/10",
         "gold_trophies": "5/5",
-        "date_platined": "01/12/2017",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 01/12/2017"
     },
     {
         "img_src": "uncharted.png",
@@ -590,9 +603,9 @@
         "bronze_trophies": "22/22",
         "silver_trophies": "11/11",
         "gold_trophies": "4/4",
-        "date_platined": "02/09/2011",
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
-        "gold_trophies_dlc": "0/0"
+        "gold_trophies_dlc": "0/0",
+        "date_platined": "Platiné le 02/09/2011"
     }
 ]

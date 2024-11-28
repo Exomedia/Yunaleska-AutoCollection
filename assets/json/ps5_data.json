@@ -198,7 +198,7 @@
         "bronze_trophies_dlc": "5/5",
         "silver_trophies_dlc": "3/4",
         "gold_trophies_dlc": "0/0",
-        "date_platined": "05/11/2024"
+        "date_platined": "Platiné le 05/11/2024"
     },
     {
         "img_src": "final-fantasy-7-rebirth.png",
@@ -410,7 +410,7 @@
         "bronze_trophies_dlc": "2/2",
         "silver_trophies_dlc": "0/1",
         "gold_trophies_dlc": "0/0",
-        "date_platined": "17/11/2024"
+        "date_platined": "Platiné le 17/11/2024"
     },
     {
         "img_src": "resident-evil-3.png",
@@ -421,7 +421,7 @@
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
-        "date_platined": "01/09/2022"
+        "date_platined": "Platiné le 01/09/2022"
     },
     {
         "img_src": "resident-evil-4.png",
@@ -432,7 +432,7 @@
         "bronze_trophies_dlc": "4/5",
         "silver_trophies_dlc": "0/1",
         "gold_trophies_dlc": "0/1",
-        "date_platined": "10/04/2023"
+        "date_platined": "Platiné le 10/04/2023"
     },
     {
         "img_src": "resident-evil-7.png",
@@ -493,6 +493,7 @@
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
+        "without_platine": true,
         "date_platined": "Pas de trophées"
     },
     {
@@ -575,7 +576,7 @@
         "bronze_trophies_dlc": "0/0",
         "silver_trophies_dlc": "0/0",
         "gold_trophies_dlc": "0/0",
-        "date_platined": "31/10/2024"
+        "date_platined": "Platiné le 31/10/2024"
     },
     {
         "img_src": "the-callisto-protocol.png",
