@@ -1,5 +1,5 @@
 # Live demo
-[exomedia.io](https://exomedia.io/Yunaleska-AutoCollection/){:target="_blank"}
+[exomedia.io](https://exomedia.io/Yunaleska-AutoCollection/)
 
 # Automatisation
 ## QoL
